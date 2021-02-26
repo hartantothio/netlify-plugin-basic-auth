@@ -1,0 +1,10 @@
+name: netlify-plugin-basic-auth
+inputs:
+  - name: userEnvKey
+    description: 'Environment variable name containing username. Default: AUTH_USER'
+  - name: passEnvKey
+    description: 'Environment variable name containing password. Default: AUTH_PASS'
+  - name: branches
+    description: List of branches to be secured (comma-separated string).
+  - name: pullRequest
+    description: Flag to enable/disable for Pull Request (boolean).
